@@ -21,12 +21,12 @@ var CardGame = function(targetId)
 
   var moveToPack = function(id) // move card to pack
   {
-    hideCard(id);
+    //hideCard(id);
     cards[id].matched = true;
     with(cards[id].style) {
       zIndex = "1000";
-      top = "100px";
-      left = "-140px";
+      //top = "100px";
+      //left = "-140px";
       WebkitTransform = MozTransform = OTransform = msTransform = "rotate(0deg)";
       zIndex = "0";
     }
