@@ -51,7 +51,7 @@ var CardGame = function(targetId)
 
     cards[id].firstChild.src = "//fcu-d0449763.github.io/sitcon_camp/images/" + card_value[id] + ".png";
     with(cards[id].style) {
-      WebkitTransform = MozTransform = OTransform = msTransform = "scale(1.2) rotate(175deg)";
+      WebkitTransform = MozTransform = OTransform = msTransform = "scale(1.2) rotate(-5deg)";
     }
 
     if(card1 !== false) {
