@@ -106,8 +106,10 @@ var CardGame = function(targetId)
   for(var i=0; i < 16; i++) {
     var newCard = card.cloneNode(true);
 
-    newCard.fromtop = 15 + 120 * Math.floor(i/4);
-    newCard.fromleft = 70 + 100 * (i%4);
+    //newCard.fromtop = 15 + 120 * Math.floor(i/4);
+    //newCard.fromleft = 70 + 100 * (i%4);
+	newCard.fromtop = window.innerHeight / 4 * Math.floor(i / 4);
+	newCard.fromleft = window.innerWidth / 4 * (i % 4);
     (function(idx) {
       newCard.addEventListener("click", function() { cardClick(idx); }, false);
     })(i);
