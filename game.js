@@ -62,6 +62,7 @@ var CardGame = function(targetId)
           setTimeout(function() { moveToPack(card1); moveToPack(card2); }, 1000);
         })(card1, card2);
         if(++matches_found == 8) { // game over, reset
+		  alert("恭喜完成闖關");
           matches_found = 0;
           started = false;
         }
