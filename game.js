@@ -103,9 +103,11 @@ var CardGame = function(targetId)
   // template for card
   var card = document.createElement("div");
   card.innerHTML = "<img src=\"//fcu-d0449763.github.io/sitcon_camp/images/back.png\">";
+  card.className="card"
 
   for(var i=0; i < 16; i++) {
     var newCard = card.cloneNode(true);
+	//newCard.className="card";
 
     //newCard.fromtop = 15 + 120 * Math.floor(i/4);
     //newCard.fromleft = 70 + 100 * (i%4);
