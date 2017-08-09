@@ -94,10 +94,10 @@ var CardGame = function(targetId)
 
   // initialise 初始化
 
-  var stage = document.getElementById(targetId);
+  /*var stage = document.getElementById(targetId);
   var felt = document.createElement("div");
   felt.id = "felt";
-  stage.appendChild(felt);
+  stage.appendChild(felt);*/
 
   // template for card
   var card = document.createElement("div");
@@ -114,7 +114,8 @@ var CardGame = function(targetId)
       newCard.addEventListener("click", function() { cardClick(idx); }, false);
     })(i);
 
-    felt.appendChild(newCard);
+    //felt.appendChild(newCard);
+	document.body.appendChild(newCard);
     cards.push(newCard);
   }
 
