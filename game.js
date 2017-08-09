@@ -15,7 +15,7 @@ var CardGame = function(targetId)
   {
     cards[id].firstChild.src = "//fcu-d0449763.github.io/sitcon_camp/images/back.png";
     with(cards[id].style) {
-      WebkitTransform = MozTransform = OTransform = msTransform = "scale(1.0) rotate(180deg)";
+      WebkitTransform = MozTransform = OTransform = msTransform = "scale(1.0) rotate(360deg)";
     }
   };
 
@@ -39,7 +39,7 @@ var CardGame = function(targetId)
       zIndex = "1000";
       top = cards[id].fromtop + "px";
       left = cards[id].fromleft + "px";
-      WebkitTransform = MozTransform = OTransform = msTransform = "rotate(180deg)";
+      WebkitTransform = MozTransform = OTransform = msTransform = "rotate(360deg)";
       zIndex = "0";
     }
   };
