@@ -50,7 +50,8 @@ var CardGame = function(targetId)
     if(cards[id].matched) return;
 
     cards[id].firstChild.src = "//fcu-d0449763.github.io/sitcon_camp/images/" + card_value[id] + ".png";
-    with(cards[id].style) {
+    //點擊後放大並旋轉-5度
+	with(cards[id].style) {
       WebkitTransform = MozTransform = OTransform = msTransform = "scale(1.2) rotate(-5deg)";
     }
 
@@ -91,7 +92,7 @@ var CardGame = function(targetId)
     }
   };
 
-  // initialise
+  // initialise 初始化
 
   var stage = document.getElementById(targetId);
   var felt = document.createElement("div");
