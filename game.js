@@ -109,8 +109,8 @@ var CardGame = function(targetId)
 
     //newCard.fromtop = 15 + 120 * Math.floor(i/4);
     //newCard.fromleft = 70 + 100 * (i%4);
-	newCard.fromtop = 10+window.innerHeight / 4 * Math.floor(i / 4);
-	newCard.fromleft = 10 + window.innerWidth / 4 * (i % 4);
+	newCard.fromtop = 15+window.innerHeight / 4 * Math.floor(i / 4);
+	newCard.fromleft = 15 + window.innerWidth / 4 * (i % 4);
     (function(idx) {
       newCard.addEventListener("click", function() { cardClick(idx); }, false);
     })(i);
