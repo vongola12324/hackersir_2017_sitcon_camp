@@ -100,7 +100,7 @@ var CardGame = function(targetId)
 
   // template for card
   var card = document.createElement("div");
-  card.innerHTML = "<img src=images/back.png>";
+  card.innerHTML = "<img src=\"//fcu-d0449763.github.io/sitcon_camp/images/back.png\">";
 
   for(var i=0; i < 16; i++) {
     var newCard = card.cloneNode(true);
