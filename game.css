@@ -7,7 +7,7 @@
   margin: 0 0 0 200px;
   height: 500px;
 
-  background: #FFFFFF;
+  background: green;
   background-image: -webkit-repeating-linear-gradient(bottom right, rgba(255,255,255,0), rgba(255,255,255,0) 80px, rgba(255,255,255,0.2) 80px, rgba(255,255,255,0.2) 150px);
   background-image: -moz-repeating-linear-gradient(bottom right, rgba(255,255,255,0), rgba(255,255,255,0) 80px, rgba(255,255,255,0.2) 80px, rgba(255,255,255,0.2) 150px);
   background-image: -o-repeating-linear-gradient(bottom right, rgba(255,255,255,0), rgba(255,255,255,0) 80px, rgba(255,255,255,0.2) 80px, rgba(255,255,255,0.2) 150px);
