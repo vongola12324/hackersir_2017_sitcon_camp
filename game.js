@@ -13,7 +13,7 @@ var CardGame = function(targetId)
 
   var hideCard = function(id) // turn card face down
   {
-    cards[id].firstChild.src = "//cdn.the-art-of-web.com/images/cards/back.png";
+    cards[id].firstChild.src = "//fcu-d0449763.github.io/sitcon_camp/images/back.png";
     with(cards[id].style) {
       WebkitTransform = MozTransform = OTransform = msTransform = "scale(1.0) rotate(180deg)";
     }
@@ -49,7 +49,7 @@ var CardGame = function(targetId)
     if(id === card1) return;
     if(cards[id].matched) return;
 
-    cards[id].firstChild.src = "//cdn.the-art-of-web.com/images/cards/" + card_value[id] + ".png";
+    cards[id].firstChild.src = "//fcu-d0449763.github.io/sitcon_camp/images/" + card_value[id] + ".png";
     with(cards[id].style) {
       WebkitTransform = MozTransform = OTransform = msTransform = "scale(1.2) rotate(185deg)";
     }
